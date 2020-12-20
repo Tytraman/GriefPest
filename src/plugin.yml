@@ -1,0 +1,9 @@
+name: "GriefPest"
+version: "1.0"
+author: "Tytraman"
+main: "net.kitcake.griefpest.Main"
+api-version: "1.16"
+
+commands:
+  pest:
+    description: "Commandes pour GriefPest"

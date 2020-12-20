@@ -1,0 +1,23 @@
+#####################################
+#                                   #
+#      GriefPest - by Tytraman      #
+#                                   #
+#####################################
+
+
+# Nombre maximum de zones qu'un joueur peut claim
+max-claims: 3
+# Nombre maximum de blocs dans une zone (x*y*z)
+max-blocks: 250000
+
+# Liste des commandes bloquées dans les zones claims sauf pour le propriétaire
+# Pour en ajouter, suivre le modèle:
+#  - commande1
+#  - commande2
+#  - commande3
+#  - etc
+# Les majuscules sont prises en compte, par exemple, SEThome n'est pas pareil que sethome
+# Pour ignorer la casse, veuillez mettre true à ignore-case
+ignore-case: false
+blocked-commands:
+  - sethome
